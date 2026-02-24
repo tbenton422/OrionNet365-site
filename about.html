@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>About | OrionNet365</title>
+  <meta name="description" content="About OrionNet365: experienced IT leadership delivering Microsoft-centric operations, NOC/SOC discipline, and modernization projects." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+<header>
+  <div class="container nav">
+    <a class="brand" href="index.html">
+      <div class="logo" aria-hidden="true"></div>
+      <div><strong>OrionNet365</strong><span>Modern IT Operations • NOC/SOC • Microsoft Cloud</span></div>
+    </a>
+    <nav class="menu" aria-label="Primary">
+      <a href="index.html" data-page="index.html">Home</a>
+      <a href="services.html" data-page="services.html">Services</a>
+      <a href="approach.html" data-page="approach.html">Approach</a>
+      <a href="industries.html" data-page="industries.html">Who We Serve</a>
+      <a href="about.html" data-page="about.html">About</a>
+    </nav>
+    <div class="cta"><a class="btn primary" href="#contact">Request a call</a></div>
+  </div>
+</header>
+
+<main>
+  <section class="hero">
+    <div class="container hero-grid">
+      <div>
+        <div class="h-eyebrow"><span class="dot"></span> About OrionNet365</div>
+        <h1>Experienced leadership, practical delivery.</h1>
+        <p class="lead">
+          OrionNet365 was formed to help organizations operate Microsoft-centric IT with discipline and clarity—without building
+          a large internal NOC/SOC. We emphasize measurable outcomes, stakeholder communication, and operational maturity.
+        </p>
+
+        <div class="card" style="margin-top:16px;">
+          <h2 style="margin-top:0;">What you can expect</h2>
+          <ul class="list">
+            <li>Clear scope and pragmatic recommendations</li>
+            <li>Hybrid project delivery tailored to infrastructure realities</li>
+            <li>Operational runbooks and repeatable processes</li>
+            <li>Security posture improvements tied to real risk reduction</li>
+          </ul>
+        </div>
+      </div>
+
+      <aside class="card">
+        <h2 style="margin-top:0;">Engagement models</h2>
+        <ul class="list">
+          <li><b>Project delivery</b> (modernization, migrations, security uplift)</li>
+          <li><b>Managed services</b> (monitoring, operations, response)</li>
+          <li><b>Fractional leadership</b> (virtual CTO / advisor)</li>
+        </ul>
+        <div class="hr"></div>
+        <p class="small">
+          If you’re not sure what you need, start with a short assessment and a prioritized plan.
+        </p>
+        <a class="btn primary" href="#contact">Contact OrionNet365</a>
+      </aside>
+    </div>
+  </section>
+
+  <section class="section" id="contact">
+    <div class="container">
+      <div class="card">
+        <h2 style="margin-top:0;">Contact</h2>
+        <p class="small">
+          Send a short note and we’ll respond with next steps. (This form uses your email client—no server scripting required.)
+        </p>
+
+        <!-- Simple mailto form (works on basic GoDaddy hosting without PHP setup) -->
+        <form action="mailto:YOUR_EMAIL_HERE" method="post" enctype="text/plain">
+          <div style="display:grid; grid-template-columns: 1fr 1fr; gap: 12px;">
+            <div>
+              <label class="small" for="name">Name</label><br/>
+              <input id="name" name="name" required style="width:100%; padding:10px; border-radius:12px; border:1px solid var(--border); background:rgba(255,255,255,.03); color:var(--text);" />
+            </div>
+            <div>
+              <label class="small" for="email">Email</label><br/>
+              <input id="email" name="email" type="email" required style="width:100%; padding:10px; border-radius:12px; border:1px solid var(--border); background:rgba(255,255,255,.03); color:var(--text);" />
+            </div>
+          </div>
+
+          <div style="margin-top:12px;">
+            <label class="small" for="msg">Message</label><br/>
+            <textarea id="msg" name="message" rows="6" required style="width:100%; padding:10px; border-radius:12px; border:1px solid var(--border); background:rgba(255,255,255,.03); color:var(--text);"></textarea>
+          </div>
+
+          <div style="margin-top:12px;">
+            <button class="btn primary" type="submit">Send</button>
+            <span class="small" style="margin-left:10px;">Or email us directly: <b>YOUR_EMAIL_HERE</b></span>
+          </div>
+        </form>
+
+        <div class="hr"></div>
+        <p class="small">
+          Note: Replace <b>info@orionnet365.com</b> with the email address you want to receive inquiries at.
+          If you prefer a server-based form (PHP) or a tool like Formspark/HubSpot/Google Forms, tell me and I’ll generate that version.
+        </p>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="container">
+    <div>© <span id="y"></span> OrionNet365. All rights reserved.</div>
+  </div>
+</footer>
+
+<script src="shared.js"></script>
+<script>document.getElementById('y').textContent = new Date().getFullYear();</script>
+</body>
+</html>
