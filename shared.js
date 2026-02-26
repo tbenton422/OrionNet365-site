@@ -1,7 +1,8 @@
-// Set active nav based on current path
+// OrionNet365 v2 - light JS (active nav link)
 (function(){
-  const path = (location.pathname.split('/').pop() || 'index.html').toLowerCase();
-  document.querySelectorAll('nav a[data-page]').forEach(a => {
-    if (a.getAttribute('data-page') === path) a.classList.add('active');
+  const path = location.pathname.split("/").pop() || "index.html";
+  document.querySelectorAll("[data-nav]").forEach(a=>{
+    const href = a.getAttribute("href");
+    if(href === path) a.style.background = "rgba(255,255,255,.08)";
   });
 })();
