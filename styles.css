@@ -255,7 +255,7 @@ body {
   /* Page-wide background */
   background-image:
     linear-gradient(180deg, rgba(7,10,18,0.78), rgba(7,10,18,0.62) 35%, rgba(7,10,18,0.78)),
-    url("hero-bg.jpg");
+    url("hero-bg.JPG");
   background-size: cover;
   background-position: center top;
   background-repeat: no-repeat;
