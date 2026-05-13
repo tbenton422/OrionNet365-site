@@ -1,8 +1,7 @@
-// OrionNet365 v2 - light JS (active nav link)
+// OrionNet365 - active nav link
 (function(){
-  const path = location.pathname.split("/").pop() || "index.html";
-  document.querySelectorAll("[data-nav]").forEach(a=>{
-    const href = a.getAttribute("href");
-    if(href === path) a.style.background = "rgba(255,255,255,.08)";
+  const path = location.pathname.split('/').pop() || 'index.html';
+  document.querySelectorAll('[data-nav]').forEach(a => {
+    if (a.getAttribute('href') === path) a.classList.add('active');
   });
 })();
