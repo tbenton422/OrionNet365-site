@@ -24,3 +24,9 @@ V4 changes:
 - Uses a clean white/professional theme
 - Adds a visible hero graphic using the Option #2 business process orbital system concept
 - Clarifies OrionNet365 as continuous monitoring, validation, and reporting support; not a certification/audit replacement
+
+
+V4.1 Updates:
+- Updated Approach page 'Improve' tile messaging
+- Added Continuous Improvement & AI Workflow Evolution section to Services page
+- Expanded positioning around AI workflow optimization and governed automation adoption
