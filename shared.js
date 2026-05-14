@@ -1,7 +1,5 @@
-// OrionNet365 - active nav link
-(function(){
-  const path = location.pathname.split('/').pop() || 'index.html';
-  document.querySelectorAll('[data-nav]').forEach(a => {
-    if (a.getAttribute('href') === path) a.classList.add('active');
-  });
-})();
+
+// OrionNet365 static site helper
+document.addEventListener('DOMContentLoaded', () => {
+  document.querySelectorAll('[data-year]').forEach(el => el.textContent = new Date().getFullYear());
+});

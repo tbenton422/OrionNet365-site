@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700">
+<rect width="1200" height="700" fill="#ffffff"/>
+<circle cx="600" cy="350" r="250" fill="none" stroke="#dbe7ff" stroke-width="2"/>
+<circle cx="600" cy="350" r="165" fill="none" stroke="#c8d8f4" stroke-width="2" stroke-dasharray="9 10"/>
+<circle cx="600" cy="350" r="72" fill="#14243b"/>
+<text x="600" y="343" text-anchor="middle" font-family="Arial" font-size="20" fill="#ffffff" font-weight="700">Human</text>
+<text x="600" y="370" text-anchor="middle" font-family="Arial" font-size="20" fill="#ffffff" font-weight="700">Oversight</text>
+<g fill="#1e5bff"><circle cx="600" cy="100" r="22"/><circle cx="850" cy="350" r="22"/><circle cx="600" cy="600" r="22"/><circle cx="350" cy="350" r="22"/><circle cx="775" cy="175" r="18"/><circle cx="425" cy="525" r="18"/></g>
+<g stroke="#9db8e8" stroke-width="2" opacity=".8"><line x1="600" y1="172" x2="600" y2="278"/><line x1="778" y1="350" x2="672" y2="350"/><line x1="600" y1="528" x2="600" y2="422"/><line x1="422" y1="350" x2="528" y2="350"/></g>
+</svg>
