@@ -35,3 +35,12 @@ This revision adds the OrionNet365 Net-Bridge Services brand and planned Standar
 - Four Net-Bridge service levels now have individual bullet lists.
 - Facility Operations describes OrionNet365 as the managed-services coordinator without asserting named or executed partner agreements.
 - Upload the six HTML pages and the contents of `assets/` to the corresponding GitHub locations; preserve `.github/workflows`.
+
+
+## v1.2 changes (2026-11-07)
+- Improved contrast for light and dark backgrounds across all six pages.
+- Facility Operations: added second graphic depicting repeatable metro-area facility groups across markets.
+- Partnerships: added high-level joint-venture and co-development language.
+- About: Sacramento headquarters with opportunity-driven reach to other U.S. metropolitan markets; added multi-MSA illustration.
+- Kept existing Net-Bridge service levels and managed-operations positioning.
+- Upload HTML files to repository root and the contents of assets/ to the existing assets/ directory; preserve .github/workflows.
