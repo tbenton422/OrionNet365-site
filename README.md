@@ -28,3 +28,10 @@ This is a new static site package, not an in-place edit of the existing GitHub s
 This revision adds the OrionNet365 Net-Bridge Services brand and planned Standard, Connected, Protected and Resilient service framework. It highlights metropolitan connectivity, geographic diversity, incremental expansion and coordinated operations. These are planned offerings, not claims of live services or guaranteed failover. Internal cluster architecture, capacity reserve economics, pricing, and partner identities are intentionally excluded.
 
 **Deployment:** Upload the six HTML files and the entire `assets/` directory to the root of your existing GitHub repository. Preserve `.github/workflows/` and the Azure Static Web Apps deployment configuration. Remove old public HTML pages if you do not want them accessible by direct URL.
+
+
+## v1.1 changes
+- Improved contrast for dark sections, light cards and the Net-Bridge service framework.
+- Four Net-Bridge service levels now have individual bullet lists.
+- Facility Operations describes OrionNet365 as the managed-services coordinator without asserting named or executed partner agreements.
+- Upload the six HTML pages and the contents of `assets/` to the corresponding GitHub locations; preserve `.github/workflows`.
